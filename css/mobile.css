@@ -17,6 +17,9 @@ html{
     font-size: 62.5%;
     font-family: 'DM Sans', sans-serif;
 }
+body{
+    background-color: var(--primary-black);
+}
 header{
     position: fixed;
     left: 0;
@@ -97,10 +100,6 @@ main{
     align-self: center;
     margin-top: 90px;
 }
-footer{
-    width: 100%;
-    height: 2000px;
-}
 .intro__aboutMe h1{
     margin-top: 15px;
     font-size: 2.4rem;
@@ -128,43 +127,44 @@ footer{
     height: auto;
     padding: 20px 10px;
     background-color: var(--primary-blue);
+    border-radius: 10px;
 }
 .information_title{
     width: 90%;
-    min-width: 200px;
+    min-width: 150px;
     height: auto;
     margin: 0 auto;
-    margin-top: 20px;
+    margin-top: 5px;
     text-align: center;
 }
 .information_title h2{
     margin-bottom: 20px;
-    font-size: 1.5rem;
+    font-size: 2.0rem;
     font-weight: bold;
     line-height: 2.6rem;
     color: var(--primary-white);
 }
-.product-detail--card{
+.information_card{
     width: 90%;
     min-width: 288px;
     max-width: 400px;
-    height: 150px;
+    height: 70px;
     margin: 15px auto;
     padding: 15px;
     background-color: var(--secondary-black);
     border-radius: 5px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.16);
 }
-.product--card-title{
-    margin-bottom: 15px;
+.information_cardtitle{
+    margin-bottom: 5px;
     font-size: 1.8rem;
     font-weight: bold;
     line-height: 1.8rem;
-    color: var(--just-white);
+    color: var(--primary-white);
 }
-.product--card-body{
+.information_cardbody{
     font-size: 1.4rem;
     font-weight: 500;
     line-height: 1.8rem;
-    color: #808080;
+    color: var(--secondary-blue);
 }
