@@ -31,7 +31,8 @@ header{
     height: 60px;
     text-align: center;
     color: var(--primary-white);
-    background-color: var(--secondary-black);
+    background-color: var(--primary-blue);
+    border-radius: 10px;
     z-index: 50;
  }
  header section{
@@ -74,7 +75,7 @@ header{
     background-color: var(--primary-black);
  }
  .headerContainer__topics a{
-    color: var(--primary-white);
+    color: var(--secondary-blue);
     text-decoration: none;
  } 
 main{
@@ -118,7 +119,7 @@ main{
     font-size: 1.4rem;
     font-weight: 500;
     line-height: 1.8rem;
-    color: var(--primary-white);
+    color: var(--secondary-blue);
 }
 .intro__information{
     position: relative;
@@ -131,24 +132,32 @@ main{
 }
 .information_title{
     width: 90%;
-    min-width: 150px;
+    min-width: 200px;
     height: auto;
     margin: 0 auto;
     margin-top: 5px;
     text-align: center;
 }
 .information_title h2{
-    margin-bottom: 20px;
+    margin-bottom: 30px;
+    margin-top: 20px;
     font-size: 2.0rem;
     font-weight: bold;
     line-height: 2.6rem;
     color: var(--primary-white);
 }
+.information_title p{
+    margin-bottom: 30px;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: var(--secondary-blue);
+}
 .information_card{
     width: 90%;
     min-width: 288px;
     max-width: 400px;
-    height: 70px;
+    height: 80px;
     margin: 15px auto;
     padding: 15px;
     background-color: var(--secondary-black);
@@ -163,6 +172,33 @@ main{
     color: var(--primary-white);
 }
 .information_cardbody{
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: var(--secondary-blue);
+}
+.main__socialMedia{
+    width: 100%;
+    min-width: 320px;
+    padding-bottom: 70px;
+    text-align: center;
+}
+.socialMedia__title{
+    width: 90%;
+    min-width: 288px;
+    height: auto;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+.socialMedia__title h2{
+    padding-top: 50px;
+    font-size: 2.0rem;
+    font-weight: bold;
+    line-height: 2.6rem;
+    color: var(--primary-white);
+}
+.socialMedia__title p{
+    padding-top: 30px;
     font-size: 1.4rem;
     font-weight: 500;
     line-height: 1.8rem;
